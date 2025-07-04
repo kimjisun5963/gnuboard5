@@ -241,8 +241,8 @@ a.gnb_2da:hover {background:#f02a2a;-moz-transition:all 0.3s ease-out;-o-transit
 .main2 .sct_wrap .bx-next:hover {opacity:1}
 .main2>p {width:100%;position:relative;text-align:center;margin-bottom:30px;font-size:1.4em;color:#fff}
 .main2 h2 {text-align:center}
-.main2 .main_tit {display:inline-block;position:relative;margin:0 auto;color:#fff}
-.main2 .main_tit:before {content:"";position:absolute;bottom:-5px;left:25px;margin:20px 0;width:50px;height:2px;background:#fff;display:inline-block}
+.main2 .main_tit {display:inline-block;position:relative;margin:0 auto;color:#111}/*color:#fff*/
+.main2 .main_tit:before {content:"";position:absolute;bottom:-5px;left:25px;margin:20px 0;width:50px;height:2px;background:#111;display:inline-block}
 
 
 .main3 {padding:0 0 65px}

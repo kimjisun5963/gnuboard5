@@ -99,7 +99,7 @@ for ($i=1; $row=sql_fetch_array($result); $i++) {
     }
 	
 	echo "<div class=\"sct_cnt\">\n";
-	echo "<span class=\"sct_rank\"><span class=\"sct_rank_{$i}\">{$i}위 상품</span></span>\n";
+	//echo "<span class=\"sct_rank\"><span class=\"sct_rank_{$i}\">{$i}위 상품</span></span>\n";
 	
 	if ($this->href) {
         echo "<div class=\"sct_txt\"><a href=\"{$this->href}{$row['it_id']}\">\n";

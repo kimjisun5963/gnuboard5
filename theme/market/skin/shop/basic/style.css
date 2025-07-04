@@ -38,12 +38,12 @@
 #sev .ev_li .ev_prd:after {display:block;visibility:hidden;clear:both;content:""}
 #sev .ev_li .ev_prd li {float:left;position:relative;width:292px;margin-left:10px;border:1px solid transparent}
 #sev .ev_li .ev_prd li:first-child {margin-left:0}
-#sev .ev_li .ev_prd li:hover {border:1px solid #f54947}
+/*#sev .ev_li .ev_prd li:hover {border:1px solid #f54947}*/
 #sev .ev_li .ev_prd_img {display:block;text-align:center;}
 #sev .ev_li .ev_txt {padding:30px;text-align:center}
-#sev .ev_li .ev_prd li:hover .ev_txt,
+/*#sev .ev_li .ev_prd li:hover .ev_txt,
 #sev .ev_li .ev_prd li:hover a,
-#sev .ev_li .ev_prd li:hover .ev_prd_price  {background:#f54947;color:#fff}
+#sev .ev_li .ev_prd li:hover .ev_prd_price  {background:#f54947;color:#fff}*/
 #sev .ev_li .ev_prd_tit {font-size:1.6em;font-weight:bold;color:#000}
 #sev .ev_li .ev_prd_price {display:block;font-size:1.4em;color:#000;font-weight:bold;padding:10px 0 0}
 .sev_admin {text-align:right}
@@ -273,18 +273,18 @@
 .sct_20 .sct_li {border:1px solid transparent;float:left;display:inline-block;width:276px !important;margin-top:0;margin-bottom:45px;margin-left:32px;text-align:center}
 /*.sct_20 .sct_li:hover {border:1px solid #f54947}*/
 .sct_20 .sct_li:nth-child(4n+1) {margin-left:0;clear:both}
-.sct_20 .sct_rank {position:absolute;left:0;top:275px;font-size:1.4em;z-index:99;color:#fff;padding:5px 0;width:100%}/*background:#f54947;*/
+/*.sct_20 .sct_rank {position:absolute;left:0;top:275px;font-size:1.4em;z-index:99;color:#fff;padding:5px 0;width:100%}*//*background:#f54947;*/
 .sct_20 .sct_rank_1:before {font-family:"Font Awesome 5 Free";content:"\f004";display:inline-block;margin-right:10px;vertical-align:middle}
 .sct_20 .sct_rank_1:after {font-family:"Font Awesome 5 Free";content:"\f004";display:inline-block;margin-left:10px;vertical-align:middle}
 .sct_20 .sct_li:hover .sct_rank_1:before,
 .sct_20 .sct_li:hover .sct_rank_1:after {color:#ffbe00;text-align:center;-webkit-transition:color 1000ms linear;-ms-transition:color 1000ms linear;transition:color 1000ms linear}
 
 .sct_20 .sct_cnt {text-align:center;padding:30px}
-/*.sct_20 .sct_li:hover .sct_cnt {background:#f54947;color:#fff}*/
+/*.sct_20 .sct_li:hover .sct_cnt {background:#f54947;color:#fff}
 .sct_20 .sct_li:hover .sct_txt a,
 .sct_20 .sct_li:hover .sct_cost {color:#fff}
 .sct_20 .sct_li:hover .sct_discount {color:#ffb5b4}
-.sct_20 .sct_li:hover .sct_rank {background:#fff;color:#f54947}
+.sct_20 .sct_li:hover .sct_rank {background:#fff;color:#f54947}*/
 .sct_20 .sct_txt {padding:10px 0;font-size:1.2em;font-weight:bold;color:#000}/*font-size:1.6em;*/
 .sct_20 .sct_basic {font-size:1.4em;margin-bottom:10px}
 .sct_20 .sct_cost {display:block;font-size:1.4em;padding:0 10px 10px;color:#000;font-weight:bold}
