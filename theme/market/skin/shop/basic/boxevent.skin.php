@@ -46,7 +46,7 @@ if(sql_num_rows($hresult)) {
             $item_href = shop_item_url($row2['it_id']);
 
             echo '<li class="ev_prd_'.$k.'">'.PHP_EOL;
-            echo '<span class="ev_prd_img">'.get_it_image($row2['it_id'], 110, 110, get_text($row2['it_name'])).'</span>'.PHP_EOL;
+            echo '<span class="ev_prd_img">'.get_it_image($row2['it_id'], 215, 215, get_text($row2['it_name'])).'</span>'.PHP_EOL;
             
             echo '<div class="ev_txt"><a href="'.$item_href.'" class="ev_prd_tit">'.get_text(cut_str($row2['it_name'], 30)).'</a>'.PHP_EOL;
             echo '<span class="ev_prd_price">'.display_price(get_price($row2), $row2['it_tel_inq']).'</span></div>'.PHP_EOL;

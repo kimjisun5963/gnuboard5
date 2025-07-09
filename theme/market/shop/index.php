@@ -52,7 +52,7 @@ include_once(G5_THEME_SHOP_PATH.'/shop.head.php');
 <?php if($default['de_type2_list_use']) { ?>
 <section class="main2">
     <h2><a href="<?php echo shop_type_url('2'); ?>" class="main_tit">추천상품</a></h2>
-    <p>SIR 마켓에서 추천해드리는 상품입니다.</p>
+    <p>POMPOM에서 추천해드리는 상품입니다.</p>
 	<!-- 추천상품 시작 { -->
 	<div class="sct_wrap">
 	    <?php

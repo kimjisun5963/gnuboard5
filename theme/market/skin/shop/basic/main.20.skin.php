@@ -93,11 +93,11 @@ for ($i=1; $row=sql_fetch_array($result); $i++) {
         echo "</div>\n";
     }
 	
-	echo"<div class=\"sct_btn\">
-            <div class=\"sct_cart_btn\">
-                <button type=\"button\" class=\"btn_cart sct_cart\" data-it_id=\"{$row['it_id']}\"><i class=\"fas fa-cart-arrow-down\"></i><span class=\"sound_only\">장바구니</span></button>
-            </div>
-        </div>\n";
+	//echo"<div class=\"sct_btn\">
+    //        <div class=\"sct_cart_btn\">
+    //            <button type=\"button\" class=\"btn_cart sct_cart\" data-it_id=\"{$row['it_id']}\"><i class=\"fas fa-cart-arrow-down\"></i><span class=\"sound_only\">장바구니</span></button>
+    //        </div>
+    //    </div>\n";
 	echo "<div class=\"sct_cartop\"></div>\n";
 
     echo "</div>\n";

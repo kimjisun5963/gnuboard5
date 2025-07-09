@@ -62,7 +62,7 @@ input[type=text]:focus, input[type=password]:focus, textarea:focus, select:focus
 #hd_wr {width:1200px;margin:0 auto}
 #hd_wr:after {display:block;visibility:hidden;clear:both;content:""}
 #logo {float:left;width:185px;height:auto}
-#logo img {width:100%;margin-top:5px}
+#logo img {width:100%;margin-top:10px}/*margin-top:5px*/
 
 #hd_sch {float:left;display:inline-block;margin-left:205px;margin-top:5px;width:400px;border-bottom:3px solid #f54947}
 #hd_sch .sch_ipt {}
@@ -239,7 +239,7 @@ a.gnb_2da:hover {background:#f02a2a;-moz-transition:all 0.3s ease-out;-o-transit
 .main2 .sct_wrap .bx-prev:hover {opacity:1}
 .main2 .sct_wrap .bx-next {position:absolute;top:40%;right:-45px;width:24px;height:40px;background:url('../img/arrow_btn_big.png') 0 -40px no-repeat;text-indent:-9999px;opacity:0.3}
 .main2 .sct_wrap .bx-next:hover {opacity:1}
-.main2>p {width:100%;position:relative;text-align:center;margin-bottom:30px;font-size:1.4em;color:#fff}
+.main2>p {width:100%;position:relative;text-align:center;margin-bottom:30px;font-size:1.4em;color:#111}/*color:#fff*/
 .main2 h2 {text-align:center}
 .main2 .main_tit {display:inline-block;position:relative;margin:0 auto;color:#111}/*color:#fff*/
 .main2 .main_tit:before {content:"";position:absolute;bottom:-5px;left:25px;margin:20px 0;width:50px;height:2px;background:#111;display:inline-block}
@@ -324,7 +324,7 @@ a.gnb_2da:hover {background:#f02a2a;-moz-transition:all 0.3s ease-out;-o-transit
 #ft_wr .ft_ul {text-align:left;width:1200px;padding:15px 0;margin:0 auto}
 #ft_wr .ft_ul li {display:inline-block;font-weight:bold;margin-right:10px;font-size:1.2em}
 #ft_wr .ft_ul li a {color:#777}
-#ft_wr .ft_ul li:nth-child(3) a {color:#7a99d6}
+#ft_wr .ft_ul li:nth-child(2) a {color:#7a99d6}
 #ft_wr .ft_ul li.ft_call {float:right;font-size:1.4em;margin:-2px 0 0;color:#777}
 .ft_info {position:relative;width:1200px;margin:0 auto;text-align:left;line-height:1.7em;color:#777;margin-top:20px}
 .ft_sns {position:absolute;right:0;top:0}

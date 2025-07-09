@@ -44,7 +44,7 @@
 /*#sev .ev_li .ev_prd li:hover .ev_txt,
 #sev .ev_li .ev_prd li:hover a,
 #sev .ev_li .ev_prd li:hover .ev_prd_price  {background:#f54947;color:#fff}*/
-#sev .ev_li .ev_prd_tit {font-size:1.6em;font-weight:bold;color:#000}
+#sev .ev_li .ev_prd_tit {font-size:1.2em;font-weight:bold;color:#000}/*font-size:1.6em;*/
 #sev .ev_li .ev_prd_price {display:block;font-size:1.4em;color:#000;font-weight:bold;padding:10px 0 0}
 .sev_admin {text-align:right}
 .sev_admin .btn_admin {background:#02c3a1;color:#fff;line-height:35px;padding:0 10px;border-radius:3px;vertical-align:middle}
@@ -306,11 +306,11 @@
 .sct_20 .sct_li .sct_sns {display:none;position:absolute;bottom:10px;right:0px;text-align:center;z-index:60;width:100%}
 .sct_20 .sct_li:hover .sct_sns {display:block}
 
-.sct_20 .sct_li .sct_sns a {display:inline-block;border-radius:50%;margin:2px;width:40px;text-align:center;height:40px;padding:10px 0;background:rgba(0,0,0,0.4)}
+/*.sct_20 .sct_li .sct_sns a {display:inline-block;border-radius:50%;margin:2px;width:40px;text-align:center;height:40px;padding:10px 0;background:rgba(0,0,0,0.4)}
 .sct_20 .sct_li .sct_sns .share-facebook:hover {background:#415b92}
 .sct_20 .sct_li .sct_sns .share-twitter:hover {background:#35b3dc}
 .sct_20 .sct_li .sct_sns .share-googleplus:hover {background:#d5503a}
-.sct_20 .sct_li .sct_sns img {width:18px}
+.sct_20 .sct_li .sct_sns img {width:18px}*/
 
 .sct_20 .sct_sns2 {}
 .sct_20 .sct_li .sct_sns2 {text-align:center;z-index:60;width:100%}
@@ -320,7 +320,7 @@
 .sct_20 .sct_li .sct_sns2 .share-googleplus:hover {background:#d5503a}
 .sct_20 .sct_li .sct_sns2 img {width:18px}
 
-.sct_20 .sct_cartop {display:none;position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;background:rgba(255, 255, 255, 0.9);padding:20px;text-align:left;z-index:90}
+/*.sct_20 .sct_cartop {display:none;position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;background:rgba(255, 255, 255, 0.9);padding:20px;text-align:left;z-index:90}
 .sct_20 .sct_cartop label,
 .sct_20 .sct_li:hover .sct_cartop label {display:inline-block;margin-bottom:5px;font-weight:bold;color:#000}
 .sct_20 .sct_cartop select {margin-bottom:10px;height:30px;line-height:28px;background-size:30px}
@@ -330,7 +330,7 @@
 .sct_20 .sct_cartop select.it_option,select.it_supply {width:100%;height:40px;line-height:38px;font-size:13px;color:#000;border:1px solid #d2d2d2;background:url('../basic/img/select.png') no-repeat right #fff;text-indent:10px;vertical-align:middle !important;outline:none;-webkit-appearance:none;-moz-appearance:none}
 .sct_20 .sct_cartop select.it_option:hover, .sct_20 .sct_cartop select.it_supply:hover {background-color:#fdfdfd}
 .sct_20 .sct_cartop select.it_option:focus, .sct_20 .sct_cartop select.it_supply:focus {background-color:#fdfdfd}
-.sct_20 .sct_cartop select.it_option option {background:#fff;padding:5px}
+.sct_20 .sct_cartop select.it_option option {background:#fff;padding:5px}*/
 
 .slider10 .sct_li:nth-child(4n+1) {margin-left:0;clear:none !important}
 .slider10 .sct_li {margin-left:0}

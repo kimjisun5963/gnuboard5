@@ -70,7 +70,51 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/Ublue-jQueryTabs-1.2.js"></scri
             	<button type="button" class="con_close"><i class="fas fa-times"></i><span class="sound_only">장바구니 닫기</span></button>
             </div>
         </div>
-    
+        
+        <div class="qk_con" id="qk_view">
+            <div class="qk_con_wr">
+            	<h3><span>오늘본상품</span></h3>
+            	<?php include(G5_SHOP_SKIN_PATH.'/boxtodayview.skin.php'); // 오늘 본 상품 ?>
+            	<button type="button" class="con_close"><i class="fas fa-times"></i><span class="sound_only">오늘본상품 닫기</span></button>
+            </div>
+        </div>
+
+        <div class="qk_con tabsList" id="qk_wish">
+            <div class="qk_con_wr">
+	            <h3><a href="<?php echo G5_SHOP_URL; ?>/wishlist.php">위시리스트</a></h3>
+	            <ul class="qk_prdli">
+	            <?php
+	            //$sql = " select *
+				//		from {$g5['g5_shop_wish_table']} a,
+				//		{$g5['g5_shop_item_table']} b
+				//		where a.mb_id = '{$member['mb_id']}'
+				//		and a.it_id  = b.it_id
+				//		order by a.wi_id desc
+				//		limit 0, 10 ";
+	            //$result = sql_query($sql);
+	            //for ($i=0; $row = sql_fetch_array($result); $i++)
+	            //{
+	            //    $image_w = 60;
+	            //    $image_h = 60;
+	            //    $image = get_it_image($row['it_id'], $image_w, $image_h, true);
+	            //    $list_left_pad = $image_w + 10;
+	            ?>
+	            <li>
+	                <div class="qk_img"><?php echo $image; ?></div>
+	                <div class="qk_txt">
+	                    <div class="qk_name"><a href="./item.php?it_id=<?php echo $row['it_id']; ?>"><?php echo stripslashes($row['it_name']); ?></a></div>
+	                    <span class="info_date"><?php echo substr($row['wi_time'], 2, 8); ?></span>
+	                </div>
+	            </li>
+	            <?php
+	            //}
+	            //if ($i == 0)
+	            //    echo '<li class="empty_list">보관 내역이 없습니다.</li>';
+	            ?>
+	            </ul>
+	            <button type="button" class="con_close"><i class="fas fa-times"></i><span class="sound_only">위시리스트닫기 </span></button>
+            </div>
+        </div>
     </div>
 
     
@@ -121,10 +165,10 @@ $(window).scroll(function() {
 <div id="ft">
     <div id="ft_wr">
         <ul class="ft_ul">
-            <!-- <li><a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a></li> -->
+            <li><a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a></li>
             <li><a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a></li>
             <li><a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a></li>
-            <!-- <li><a href="<?php echo get_device_change_url(); ?>">모바일버전</a></li> -->
+            <li><a href="<?php echo get_device_change_url(); ?>">모바일버전</a></li>
         	<li class="ft_call">고객센터 1234-5678</li>
         </ul>
 	</div>
